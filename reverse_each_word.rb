@@ -5,7 +5,7 @@ def reverse_each_array(string)
   array1.each do |string|
     array2 << string.reverse
   end
-  array2
+  array2.join(" ")
 end
 
 def reverse_each_word(string)
